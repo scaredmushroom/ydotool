@@ -31,7 +31,7 @@ static void ShowHelp() {
 
 int InituInput() {
 	if (!myuInput) {
-		uInputSetup us({"ydotool virtual device"});
+		uInputSetup de({"ydotool virtual device"});
 
 		myuInput = new uInput({de});
 	}
