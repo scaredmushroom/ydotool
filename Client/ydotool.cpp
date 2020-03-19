@@ -33,7 +33,7 @@ int InituInput() {
 	if (!myuInput) {
 		uInputSetup us({"ydotool virtual device"});
 
-		myuInput = new uInput();
+		myuInput = new uInput({de});
 	}
 
 	return 0;
